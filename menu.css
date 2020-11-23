@@ -1,0 +1,215 @@
+nav {
+  z-index: 1000;
+}
+
+article.first {
+  background-image: url(drinks/andrew-wong-1230854-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.first .container p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+article.second {
+  padding-top: 100px;
+}
+article.second h1 {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+}
+article.second .owl-carousel {
+  display: flex;
+}
+article.second .owl-carousel .owl-stage {
+  text-align: -webkit-center;
+}
+
+article.third {
+  padding-bottom: 50px;
+}
+article.third .imbck {
+  background-image: url(drinks/hotdishes.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.third .imbck .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.third h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+}
+article.third p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.hotdishes .container .row {
+  margin: 0;
+  padding: 0;
+}
+div.hotdishes .container .row .col-md-5 {
+  padding: 0;
+}
+div.hotdishes .container .row .card {
+  margin-bottom: 20px;
+}
+div.hotdishes .container .row .card .card-body > h5 {
+  color: #D4AF37;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+div.hotdishes .container .row .card .card-body > p {
+  color: lightslategrey;
+}
+div.hotdishes .container .row .card .menu-item {
+  padding: 10px 10px;
+  width: 100%;
+}
+div.hotdishes .container .row .card .menu-item h3 {
+  color: #000;
+  padding-right: 5px;
+  font-family: "Droid Serif", serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  display: table-cell;
+  white-space: nowrap;
+  width: 25%;
+  line-height: 15px;
+}
+div.hotdishes .container .row .card .menu-item .menu-item-dot {
+  display: table-cell;
+  width: 65%;
+  border-bottom: 1px dotted #000;
+}
+div.hotdishes .container .row .card .menu-item .price {
+  display: table-cell;
+  white-space: nowrap;
+  width: 10%;
+  padding: 10px 0 0 10px;
+  text-align: left;
+  font-size: 24px;
+}
+
+article.forth {
+  padding-bottom: 50px;
+}
+article.forth .imbck {
+  background-image: url(drinks/desert.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.forth .imbck .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.forth h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+}
+article.forth p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+article.fifth {
+  padding-bottom: 50px;
+}
+article.fifth .imbck {
+  background-image: url(drinks/alex-block-431447-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.fifth .imbck .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.fifth h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+}
+article.fifth p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=menu.css.map */

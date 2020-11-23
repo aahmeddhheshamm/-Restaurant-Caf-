@@ -1,0 +1,162 @@
+nav {
+  z-index: 1000;
+}
+
+article.first {
+  background-image: url(drinks/abouttop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+article.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.first p:nth-of-type(1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  color: #fff;
+}
+article.first p:nth-of-type(2) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #D4AF37;
+}
+
+div.second {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+div.second .container .row .left {
+  margin-top: 35px;
+  width: 100%;
+  box-shadow: 4px 2px 2px black;
+}
+div.second .container .row .left h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+div.second .container .row .right {
+  padding-top: 30px;
+}
+div.second .container .row .right img {
+  width: 100%;
+  height: 400px;
+}
+
+article.third .imbck {
+  background-image: url(drinks/abup.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.third .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.third h1 {
+  color: #fff;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+}
+article.third p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.forth {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+div.forth .container .row .left {
+  padding-bottom: 30px;
+}
+div.forth .container .row .left img {
+  width: 100%;
+  height: 400px;
+}
+div.forth .container .row .right {
+  margin-top: 35px;
+  box-shadow: 4px 2px 2px black;
+  width: 100%;
+}
+div.forth .container .row .right h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 10px;
+}
+
+article.fifth .imbck {
+  background-image: url(drinks/Retail-Restaurant-Cleaning-1024x680.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.fifth .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.fifth .container h1 {
+  color: #fff;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+}
+article.fifth .container p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.last .container {
+  padding-top: 50px;
+}
+div.last .container .row .left {
+  margin-top: 35px;
+  width: 100%;
+  box-shadow: 4px 2px 2px black;
+}
+div.last .container .row .left h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+div.last .container .row .right {
+  padding-top: 30px;
+}
+div.last .container .row .right img {
+  width: 100%;
+  height: 400px;
+}
+
+/*# sourceMappingURL=abouts.css.map */

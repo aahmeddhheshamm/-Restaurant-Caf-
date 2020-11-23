@@ -1,0 +1,66 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        include link.pug
+        link(rel="stylesheet", href="contact.css")
+        title Contact
+
+    body
+        include nav.pug
+        article.first
+            .overlay
+            .container
+                p.animated.fadeInLeft Our Contact
+        article.second
+            .container
+                .contspace
+                    .row
+                        .col-md-6
+                            .left-info
+                                h2 Contact info
+                                p Numerous commentators have also referred to the supposed restaurant owner's eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and brandishing a sword
+                        .col-md-3
+                            .center-info
+                                h2 address
+                                ul
+                                    li 
+                                        a(href="#") 27th Brooklyn New York, NY 10065
+                                    li
+                                        a(href="#") +02011523895
+                                    li
+                                        a(href="#") +02011004754                                
+                        .col-md-3
+                            .right-info
+                                h2 Find us
+                                .social
+                                    a(href="#").twitter
+                                        i.fa.fa-twitter.text-info  
+                                    a(href="#").facebook
+                                        i.fa.fa-facebook.text-primary
+                                    a(href="#").google
+                                        i.fa.fa-google-plus.text-danger 
+        div.third
+            .container
+                .contspace
+                    h2 Contact
+                    .row
+                        .col-md-6
+                            .left-input
+                                input(type="text" name="name" placeholder="Name")
+                                input(type="text" name="email" placeholder="Email")
+                                input(type="text" name="phone" placeholder="Phone")
+                        .col-md-6    
+                            .right-input
+                                textarea(name="message" placeholder="Message", row="10")
+                    .col-md-12
+                        .form-sent
+                            button(type='submit') Send       
+        article.fourth
+            div(style="width: 100%")
+                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=egypt%2Cahram%20canadian%20univeristy+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Map a route</a>
+                </iframe>
+        
+        include fots.pug
+        include script.pug
+        script(src="about.js")

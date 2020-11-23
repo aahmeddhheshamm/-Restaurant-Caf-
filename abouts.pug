@@ -1,0 +1,61 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        include link.pug
+        link(rel="stylesheet", href="abouts.css")
+        title abouts
+    body
+        include nav.pug
+        article.first
+            .overlay
+            p.animated.fadeInLeft About Restaurant 
+            p.animated.fadeInRight Who We Are
+        div.second
+            .container
+                .row
+                    .col-md-6   
+                        .left  
+                            h1 About us
+                            p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+                            p Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                    .col-md-5.offset-1  
+                        .right 
+                            img(src="drinks/abrig.jpg", alt="")
+        article.third
+            .imbck
+                .overlay
+                .container
+                    h1 Our Chef
+                    .row-center
+                        p Our team has high experience,gets excellent cooking and can make any type of any national food
+        div.forth
+            .container
+                .row
+                    .col-md-5
+                        .left
+                            img(src="drinks/female1-chef.jpg", alt="")   
+                    .col-md-6.offest-1
+                        .right
+                            h1 About our Chef
+                            p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+                            p Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+        article.fifth
+            .imbck
+                .overlay
+                .container
+                    h1 Our Resturant
+                    p Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+        div.last
+            .container
+                .row
+                    .col-md-6
+                        .left
+                            h1 About our Resturant
+                            p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.                
+                    .col-md-5.offset-1
+                        .right
+                            img(src="drinks/jonathan-borba-1397926-unsplash.jpg", alt="")                            
+        include fots.pug
+        include script.pug
+        script(src="about.js")

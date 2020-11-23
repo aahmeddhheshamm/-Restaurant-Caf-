@@ -1,0 +1,226 @@
+nav {
+  z-index: 1000;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+article.first {
+  background-image: url(drinks/nathan-dumlao-264380-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.first .container p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+div.second .container .up {
+  padding-top: 50px;
+}
+div.second .container .up > h2 {
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #D4AF37;
+}
+div.second .container .up p {
+  color: #000;
+  font-family: Yellowtail, Georgia;
+  font-size: 18px;
+  line-height: 10px;
+  padding: 5px;
+}
+div.second .container .box {
+  overflow: hidden;
+  padding-top: 20px;
+}
+div.second .container .box .card {
+  height: 320px;
+}
+div.second .container .box .card .text {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.second .container .box .card .text h2 {
+  color: #000;
+  border-bottom: 1px solid #D4AF37;
+}
+div.second .container .box .card .imgin {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+div.second .container .box .card .imgin img {
+  width: 90%;
+  height: 200px;
+}
+div.second .container .box .card .imgin img:hover {
+  transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: scale(1.2);
+}
+
+article.third .imbck {
+  background-image: url(drinks/chairs-menu-restaurant-6267.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+article.third .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 2;
+}
+article.third .container h1 {
+  color: #fff;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+}
+article.third .container p {
+  color: #D4AF37;
+  font-family: Yellowtail, Georgia;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.fourth .container .down {
+  padding-top: 50px;
+}
+div.fourth .container .down h2 {
+  text-align: center;
+  color: #D4AF37;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+div.fourth .container .box {
+  overflow: hidden;
+  padding-top: 20px;
+}
+div.fourth .container .box .card {
+  height: 320px;
+}
+div.fourth .container .box .card .text {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.fourth .container .box .card .text h2 {
+  color: #000;
+  border-bottom: 1px solid #D4AF37;
+}
+div.fourth .container .box .card .imgin {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+div.fourth .container .box .card .imgin img {
+  width: 90%;
+  height: 200px;
+}
+div.fourth .container .box .card .imgin img:hover {
+  transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: scale(1.2);
+}
+
+div.fifth {
+  background-color: #000;
+}
+div.fifth .container .contspace > h2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+div.fifth .container .contspace .row {
+  margin: 0;
+  padding: 0;
+}
+div.fifth .container .contspace .row .left-input input {
+  border: none;
+  background: #222121;
+  height: 80px;
+  font-size: 20px;
+  padding: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+div.fifth .container .contspace .row .right-input label {
+  color: #fff;
+  font-size: 20px;
+}
+div.fifth .container .contspace .row .right-input input {
+  border: none;
+  background: #222121;
+  height: 70px;
+  font-size: 20px;
+  padding: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+div.fifth .container .contspace .row .right-input span {
+  color: #fff;
+}
+div.fifth .container .contspace .form-sent {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 0px;
+  color: #cbc8c8;
+  padding-bottom: 25px;
+}
+div.fifth .container .contspace .form-sent button {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  min-height: 70px;
+  background: #D30017;
+}
+
+/*# sourceMappingURL=service.css.map */

@@ -1,0 +1,85 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        include link.pug
+        link(rel="stylesheet", href="service.css", attr)
+        title service
+    body
+        include nav.pug
+        article.first
+            .overlay
+            .container
+                p.animated.fadeInRight Our Service
+        div.second
+            .container
+                .row
+                    .up
+                        h2 What We Offer
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        p Lorem Ipsum has been the industry's stan
+                    .box.row
+                        .card.col-md-3.offset-1
+                            .text
+                                h2 BreakFast
+                            .imgin
+                                img(src="drinks/breakfast.jpg", alt="alt")
+                        .card.col-md-3.offset-1
+                            .text
+                                h2 Lunch
+                            .imgin
+                                img(src="drinks/lunch.jpg", alt="alt")
+                        .card.col-md-3.offset-1
+                            .text
+                                h2 Dinner
+                            .imgin
+                                img(src="drinks/dinner.jpg", alt="alt")                                                                
+        article.third
+            .imbck
+                .overlay
+                .container
+                    h1 Our Distinguishead Dishesd
+                    p Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+        div.fourth
+            .container
+                .down
+                    h2 Food Types
+                .box.row
+                    .card.col-md-3.offset-1
+                        .text
+                            h2 Indian Food
+                        .imgin
+                            img(src="drinks/cuisine-delicious-dinner-958545.jpg", alt="alt")
+                    .card.col-md-3.offset-1
+                        .text
+                            h2 Italian Food
+                        .imgin
+                            img(src="drinks/cheese-delicious-dinner-2232.jpg", alt="alt")
+                    .card.col-md-3.offset-1
+                        .text
+                            h2 Chinees Food
+                        .imgin
+                            img(src="drinks/awesome-cafe-capsicum-2347311.jpg", alt="alt") 
+        div.fifth
+            .container
+                .contspace
+                    h2 Make a Reservation
+                    .row
+                        .col-md-6
+                            .left-input
+                                input(type="text" name="name" placeholder="Name" required)
+                                input(type="text" name="email" placeholder="Email" required)
+                                input(type="text" name="phone" placeholder="Phone" required)
+                        .col-md-6    
+                            .right-input
+                                label(for="start") start date:
+                                input(type="date" name="trip-start" value="2018-7-22" min="2018-01-01" max="2018-12-31" #stat)
+                                label(for="appt") Choose a time for your meeting:
+                                input(type="time" name="appt" min="9:00" max="18:00" required #appt)
+                                span.note Office hours are 9am to 6pm
+                    .col-md-12
+                        .form-sent
+                            button(type='submit') Send                                                                                                                                                         
+        include fots.pug
+        include script.pug
+        script(src="about.js")

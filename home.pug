@@ -1,0 +1,198 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        include link.pug
+        link(href="home.css", rel="stylesheet")
+        link(href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css", rel="stylesheet", attr)
+
+        title Home
+    body
+        .loading
+            ul
+                li L
+                li O
+                li A
+                li D
+                li I
+                li N
+                li G
+        include nav.pug
+        article.sliderHome
+            
+            div.photo
+                div.overlay
+                    div
+                        h1 icook Restaurant
+                        p Lorem ipsum dolor sit amet consectetur 
+                    div.go
+        article.aboutusHome
+            .container
+                h1 About Us
+                div(class="row a")
+                    .col-md-6
+                        .content
+                            |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    div(class="col-md-6" style="text-align: -webkit-center;")
+                        .photo1 
+        article.special-menu
+            div.overlay
+                h1 Special Menu
+                .container
+                    .row
+                        div(class="col-md-4 bo")
+                            .box
+                                .content
+                                    h4 fish
+                                    .image-content
+                                        img(src="food-png-food-salad-image-2962-428.png", alt="alt")
+                                    ul
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="far fa-star"></i>
+                                    p 20$/dish
+                                    span details
+                        div(class="col-md-4 bo")
+                            .box
+                                .content
+                                    h4 shrimp
+                                    .image-content
+                                        img(src="Edible.png", alt="alt")
+                                    ul
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="far fa-star"></i>
+                                    p 50$/dish
+                                    span details
+                        div(class="col-md-4 bo")
+                            .box
+                                .content
+                                    h4 fish
+                                    .image-content
+                                        img(src="food-png-food-salad-image-2962-428.png", alt="alt")
+                                    ul
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="fas fa-star"></i>
+                                        li <i class="far fa-star"></i>
+                                    p 20$/dish
+                                    span details
+        section.gallery
+            .container
+                h1 Gallary
+                .row
+                    .col-lg-4
+                        .row
+                            .col-md-12
+                                div.image1
+                                    .overlay-div
+                                         section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+                        .row
+                            .col-md-12
+                                div.image2
+                                    .overlay-div
+                                         section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+
+                    .col-lg-4
+                        .row
+                            .col-md-12
+                                div.image3
+                                    .overlay-div
+                                        section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+                        .row
+                            .col-md-12
+                                div.image4
+                                    .overlay-div
+                                         section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+                    .col-lg-4
+                        .row
+                            .col-md-12
+                                div.image5
+                                    .overlay-div
+                                         section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+                        .row
+                            .col-md-12
+                                div.image6
+                                    .overlay-div
+                                         section
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <i class="fas fa-heart"></i>
+        section(class="SECtoTRANS" id="opinion")
+            .overlay
+                .opinion
+                    .container-fluid
+                        .container
+                            div(class="owl-carousel owl-theme OW")
+                                .item
+                                    .contentofitem
+                                        p "where do new ideas come form? the answer is simple: differences. creativity comes from just a positions"
+                                        .ofDesiner
+                                            .leftbox
+                                                .img1
+                                                    img(src="drinks/female1-chef.jpg")
+                                            .rightbox
+                                                .nameofdesigner
+                                                    |ahmed hesham
+                                                .designerjob
+                                                    |chef
+                                            .clear-fex
+                                .item
+                                    .contentofitem
+                                        p "where do new ideas come form? the answer is simple: differences. creativity comes from just a positions"
+                                        .ofDesiner
+                                            .leftbox
+                                                .img2
+                                                    img(src="drinks/female1-chef.jpg")
+                                            .rightbox
+                                                .nameofdesigner
+                                                    |ahmed hesham
+                                                .designerjob
+                                                    |chef
+                                .item
+                                    .contentofitem
+                                        p "where do new ideas come form? the answer is simple: differences. creativity comes from just a positions"
+                                        .ofDesiner
+                                            .leftbox
+                                                .img3
+                                                    img(src="drinks/female1-chef.jpg")
+                                            .rightbox
+                                                .nameofdesigner
+                                                    |ahmed hesham
+                                                .designerjob
+                                                    |chef
+                                .item
+                                    .contentofitem
+                                        p "where do new ideas come form? the answer is simple: differences. creativity comes from just a positions"
+                                        .ofDesiner
+                                            .leftbox
+                                                .img4
+                                                    img(src="drinks/female1-chef.jpg")
+                                            .rightbox
+                                                .nameofdesigner
+                                                    |ahmed hesham
+                                                .designerjob
+                                                    |chef
+        section.last
+        include fots.pug                
+        include script.pug
+        script(src="owl.carousel.js")
+        script(src="index.js")
+        
+        

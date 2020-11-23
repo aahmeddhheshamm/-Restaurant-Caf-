@@ -1,0 +1,243 @@
+nav{
+    z-index: 1000;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+article.first{
+    background-image: url(drinks/nathan-dumlao-264380-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.2;
+        z-index: 2;
+    } 
+    .container{
+        p{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 44px;
+            letter-spacing: 2px;
+            padding-bottom: 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            color: #fff;
+
+        }
+    }
+}
+div.second{
+    .container{
+        .up{
+            padding-top: 50px;
+            >h2{
+                font-weight: bold;
+                padding-bottom: 5px;
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #D4AF37;
+            }
+            p{
+                color: #000;
+                font-family: Yellowtail, Georgia;
+                font-size: 18px;
+                line-height: 10px;
+                padding: 5px;
+            }
+        }
+        .box{
+            overflow: hidden;
+            padding-top: 20px;
+            .card{
+                height: 320px;
+                .text{
+                    display: flex;
+                    justify-content: center;
+                    justify-items: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    h2{
+                        color: #000;
+                        border-bottom: 1px solid #D4AF37
+                    }
+                }
+                .imgin{
+                    display: flex;
+                    justify-content: center;
+                    justify-items: center;
+                    img{
+                    width: 90%;
+                    height: 200px;
+                    &:hover{
+                        transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+                        transform: scale(1.2)
+                    }
+                }
+                }
+            }
+        }
+
+    }
+}
+article.third{
+    .imbck{
+        background-image: url(drinks/chairs-menu-restaurant-6267.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.2;
+        z-index: 2;
+    }
+    .container{
+
+        h1{
+            color: #fff;
+            font-family: Yellowtail,Georgia;
+            text-align: center; 
+        }
+        p{
+            color: #D4AF37;
+            font-family: Yellowtail, Georgia;
+            text-align: center;
+            font-size: 30px;
+    }
+    }
+}
+div.fourth{
+    .container{
+        .down{
+            padding-top: 50px;
+            h2{
+                text-align: center;
+                color: #D4AF37;
+                font-family: 'Source Sans Pro', sans-serif;
+                padding-bottom: 30px;
+                font-weight: bold;
+            }
+        } 
+        .box{
+            overflow: hidden;
+            padding-top: 20px;
+            .card{
+                height: 320px;
+                .text{
+                    display: flex;
+                    justify-content: center;
+                    justify-items: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    h2{
+                        color: #000;
+                        border-bottom: 1px solid #D4AF37
+                    }
+                }
+                .imgin{
+                    display: flex;
+                    justify-content: center;
+                    justify-items: center;
+                    img{
+                    width: 90%;
+                    height: 200px;
+                    &:hover{
+                        transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+                        transform: scale(1.2)
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+div.fifth{
+    background-color: #000;
+    .container{
+        .contspace{
+            >h2{
+                padding-top: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 2px;
+                padding-bottom: 20px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+                color: #fff;
+            }
+            .row{
+                margin: 0;
+                padding: 0;
+                .left-input{
+                    input{
+                        border: none;
+                        background: #222121;
+                        height: 80px;
+                        font-size: 20px;
+                        padding: 7px;
+                        margin-bottom: 20px;
+                        color: #fff;
+                    }
+                }
+                .right-input{
+                    label{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                    input{
+                    border: none;
+                    background: #222121;
+                    height: 70px;
+                    font-size: 20px;
+                    padding: 7px;
+                    margin-bottom: 20px;
+                    color: #fff;
+                }
+                span{
+                    color: #fff;
+                }
+            }
+            }
+            .form-sent{
+                margin-top: 10px;
+                text-align: center;
+                padding: 0 0px;
+                color: #cbc8c8;
+                padding-bottom: 25px;
+            button{
+                    font-family: "Cabin", sans-serif;
+                    font-weight: 600;
+                    text-transform: none;
+                    text-align: center;
+                    font-size: 24px;
+                    color: #ffffff;
+                    border: none;
+                    padding: 10px 20px;
+                    width: 200px;
+                    min-height: 70px;
+                    background: #D30017;
+                }
+            }
+        }    
+    }
+}
